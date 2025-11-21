@@ -1,4 +1,16 @@
-<!-- NG-ZORRO -->
-<a href="https://github.com/NG-ZORRO/ng-zorro-antd" target="_blank" style="display: flex;align-items: center;justify-content: center;height: 100%;width: 100%;">
-  <img height="300" src="https://img.alicdn.com/tfs/TB1X.qJJgHqK1RjSZFgXXa7JXXa-89-131.svg">
-</a>
+<nz-layout>
+  <div class="main-header custom-navbar" nz-row nzType="flex" >
+    <div class="navbar-title">
+      <a routerLink="/login">Car Rental System</a>
+    </div>
+
+    <div class="nav-links">
+      <a nz-button nzType="link" routerLink="/register" routerLinkActive="active">Sign Up</a>
+      <a nz-button nzType="link" routerLink="/login" routerLinkActive="active">Login</a>
+    </div>
+  </div>
+
+
+    <router-outlet></router-outlet>
+ 
+</nz-layout>
