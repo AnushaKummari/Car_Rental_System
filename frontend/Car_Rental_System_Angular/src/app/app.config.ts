@@ -14,6 +14,7 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzFormModule } from 'ng-zorro-antd/form';
 import { NzInputModule } from 'ng-zorro-antd/input';
+import { NzSpinModule } from 'ng-zorro-antd/spin';
 
 registerLocaleData(en);
 
@@ -23,6 +24,7 @@ export const appConfig: ApplicationConfig = {
       NzLayoutModule,
       NzGridModule,
       NzFormModule,
-      NzInputModule
+      NzInputModule,
+      NzSpinModule
   ), provideAnimationsAsync(), provideHttpClient()]
 };
